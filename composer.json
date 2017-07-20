@@ -1,0 +1,20 @@
+{
+    "name": "georgezim85/jorgchart",
+    "description": "jQuery OrgChart is a plugin that allows you to render structures with nested elements in a easy-to-read tree structure.",
+    "type": "jquery-plugin",
+    "require": {
+        "components/jquery": "^3.2",
+        "components/jqueryui": "^1.12",
+        "components/bootstrap": "^3.3"
+    },
+    "authors": [
+        {
+            "name": "Selvamani",
+            "email": "sselvamani22@github.com"
+        },
+        {
+            "name": "George Tavares Lopes",
+            "email": "george.tavares.lopes@gmail.com"
+        }
+    ]
+}

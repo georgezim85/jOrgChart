@@ -141,7 +141,7 @@
           if($tr.hasClass('contracted')){
             $this.css('cursor','n-resize');
             $tr.removeClass('contracted').addClass('expanded');
-            $tr.nextAll("tr").css('visibility', '');
+            $tr.nextAll("tr").show('fast');
 
             // Update the <li> appropriately so that if the tree redraws collapsed/non-collapsed nodes
             // maintain their appearance
@@ -149,7 +149,7 @@
           }else{
             $this.css('cursor','s-resize');
             $tr.removeClass('expanded').addClass('contracted');
-            $tr.nextAll("tr").css('visibility', 'hidden');
+            $tr.nextAll("tr").hide('fast');
 
             $node.addClass('collapsed');
           }

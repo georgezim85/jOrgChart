@@ -1,9 +1,3 @@
-Forked for to make jOrgChart compatible with new versios of jquery, jquery-ui and bootstrap.
-============================================================================================
-
-STATUS: NOT WORKING YET.
-========================
-
 Original project author: github.com/sselvamani22
 
 #Readme
